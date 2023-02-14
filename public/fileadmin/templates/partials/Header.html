@@ -1,0 +1,19 @@
+<header class="page-header">
+	<div class="page-header__inner">
+		<a href="javascript:;" class="btn btn--menu js-btn-menu">
+			<span></span>
+		</a>
+    <f:if condition="{languageKey} == 'en'">
+      <a href="/en" class="brand"></a>
+    </f:if>
+    <f:if condition="{languageKey} == 'de'">
+      <a href="/" class="brand"></a>
+    </f:if>
+		<nav class="language-nav">
+			<f:format.raw>{menuLanguage}</f:format.raw>
+		</nav>
+	</div>
+</header>
+<nav class="page-nav js-menu" role="navigation">
+	<f:format.raw>{menuMain}</f:format.raw>
+</nav>

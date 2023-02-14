@@ -1,0 +1,24 @@
+<main>
+	<section class="page-section page-section--inner">
+		<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.pageUid')} != 3">
+			<nav class="browse">
+				<f:cObject typoscriptObjectPath="lib.menuBrowse" />
+			</nav>
+		</f:if>		
+		<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.pageUid')} == 2">
+			<f:then>
+				<div style="background-image: url(/fileadmin/assets/img/fbm-compass-bg.jpg); background-repeat: no-repeat; background-size: contain; background-position: center center"><f:format.html parseFuncTSPath="">{contentBlockOne}</f:format.html></div>
+			</f:then>
+			<f:else>
+				<f:format.html parseFuncTSPath="">{contentBlockOne}</f:format.html>
+			</f:else>
+		</f:if>
+		<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.pageUid')} == 9">
+			<div class="social-media">
+				<a href="https://www.linkedin.com/company/11368474/" target="_blank" class="icon icon--linkedin" title="Visit my profile on Linkedin"></a>
+				<a href="https://www.xing.com/companies/familybusinessmatters" target="_blank" class="icon icon--xing" title="Visit my profile on Xing"></a>
+			</div>
+		</f:if>	
+	</section>
+</main>
+	

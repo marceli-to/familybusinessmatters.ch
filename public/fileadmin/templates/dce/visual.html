@@ -1,0 +1,8 @@
+{namespace dce=ArminVieweg\Dce\ViewHelpers}
+<f:if condition="{field.image}">
+	<f:then>
+		<f:for each="{dce:fal(field:'image', contentObject:contentObject)}" as="fileReference">
+			<f:image src="{fileReference.uid}" treatIdAsReference="1" alt="{fileReference.alt}" width="1600c" height="800c" class="responsive-image" />
+		</f:for>
+	</f:then>
+</f:if>

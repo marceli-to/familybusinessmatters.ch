@@ -1,0 +1,11 @@
+/vendor/*
+/public/index.php
+/public/typo3/*
+/public/typo3conf/ext/*
+/public/.htaccess
+.DS_Store
+/var/log/*
+/var/session/*
+/var/cache/*
+!/var/labels
+/public/typo3conf/LocalConfiguration.php

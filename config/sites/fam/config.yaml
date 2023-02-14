@@ -1,0 +1,32 @@
+base: /
+languages:
+  -
+    title: German
+    enabled: true
+    base: /de
+    typo3Language: de
+    locale: de
+    iso-639-1: de
+    websiteTitle: ''
+    navigationTitle: Deutsch
+    hreflang: de
+    direction: ''
+    flag: de
+    languageId: 0
+  -
+    title: English
+    enabled: true
+    base: /en
+    typo3Language: default
+    locale: en
+    iso-639-1: ab
+    websiteTitle: ''
+    navigationTitle: ''
+    hreflang: ''
+    direction: ''
+    fallbackType: strict
+    fallbacks: ''
+    flag: global
+    languageId: 1
+rootPageId: 1
+websiteTitle: ''

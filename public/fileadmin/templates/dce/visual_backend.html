@@ -1,0 +1,4 @@
+{namespace dce=ArminVieweg\Dce\ViewHelpers}
+<f:for each="{dce:fal(field:'image', contentObject:contentObject)}" as="fileReference">
+	<f:image src="{fileReference.uid}" width="240c" height="120c" alt="" treatIdAsReference="1" />
+</f:for>

@@ -1,0 +1,9 @@
+.nobr {
+	white-space: nowrap;
+}
+
+.auto-break {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;		
+}
