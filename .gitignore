@@ -9,3 +9,4 @@
 /var/cache/*
 !/var/labels
 /public/typo3conf/LocalConfiguration.php
+INSTALL.TXT
